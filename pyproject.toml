@@ -1,0 +1,40 @@
+[project]
+name = "geo-tui"
+version = "0.1.0"
+description = "A textual TUI application for viewing world maps with interactive navigation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "textual>=0.60.0",
+    "rich>=13.0.0",
+    "shapely>=2.0.0",
+    "pyproj>=3.6.0",
+]
+
+[project.scripts]
+geo-tui = "geo_tui.cli:main"
+
+[project.optional-dependencies]
+geopandas = [
+    "geopandas>=0.14.0",
+    "rtree>=1.0.0",
+]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "pytest-mock>=3.11.0",
+]
+all = [
+    "geopandas>=0.14.0",
+    "rtree>=1.0.0",
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "pytest-mock>=3.11.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatchling.build]
+sources = ["src"]
