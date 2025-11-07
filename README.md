@@ -1,15 +1,13 @@
 # Geo-TUI
 ![Screenshot of Geo-TUI](screenshot.png)
 
-A textual TUI (Text User Interface) application for viewing world maps with interactive navigation, built using clean architecture principles and SOLID design patterns.
+A textual TUI (Text User Interface) application for viewing world maps with interactive navigation.
 
 ## Features
 
 - **Interactive Map Viewing**: View world maps rendered using Unicode Braille characters for high resolution
 - **Pan and Zoom**: Navigate the map using arrow keys and zoom controls
 - **Data Updates**: Interface for updating map data at specific lat/lon coordinates
-- **Extensible Architecture**: Clean architecture with SOLID principles for easy extension
-- **Comprehensive Tests**: Full unit test suite for all components
 
 ## Architecture
 
