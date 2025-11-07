@@ -1,4 +1,5 @@
 # Geo-TUI
+![Screenshot of Geo-TUI](screenshot.png)
 
 A textual TUI (Text User Interface) application for viewing world maps with interactive navigation, built using clean architecture principles and SOLID design patterns.
 
